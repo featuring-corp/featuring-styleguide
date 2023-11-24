@@ -96,7 +96,7 @@ Verbose Name은 최대한 유일한 이름을 갖도록 하여 Admin 화면에�
 - A, B, C 부분에는 필요한 정보를 추가적으로 적어 줍니다. 그 값의 의미가 명확한 경우에는 key 를 포함하지 않습니다. 하지만 그 의미가 명확하지 않은 경우(대부분 숫자)는 key: value 스타일로 적습니다.
 
 ```
-[사용자 234] eight@8percent.kr
+[사용자 234] featuser@featuring.in
 [영화 234] DancingQueen, 상영여부: True
 ```
 
