@@ -148,8 +148,10 @@ def get_total_amount(self):
     return self.aggregate(sum=Sum('amount'))['sum']
 ```
 
-## Signal
-기본적으로 Signal의 사용을 지양합니다.
+## Signal - 협의 필요
+현재 서비스 내 시그널이 많이 사용되고 있습니다. 아직 이와 관련되서 협의된 사항은 없습니다.
+
+cf) https://lincolnloop.com/insights/django-anti-patterns-signals/
 여러 모델에 걸쳐 복잡한 처리가 필요한 것이 아니라면 가급적 init(), save(), delete() 에서 처리하도록 합니다.
 
 #### 사용에 적합한 경우
